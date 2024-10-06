@@ -131,7 +131,7 @@ else:
                             source = "from", 
                             target = "to", 
                             edge_attr = True, 
-                            create_using = nx.DiGraph()  #nx.Graph()
+                            create_using = nx.Graph()
                                )
 
     communities =  community.community_louvain.best_partition(G,random_state=123) 
