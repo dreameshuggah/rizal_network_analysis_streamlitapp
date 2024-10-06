@@ -131,7 +131,8 @@ else:
                             source = "from", 
                             target = "to", 
                             edge_attr = True, 
-                            create_using = nx.Graph())
+                            create_using = nx.DiGraph()  #nx.Graph()
+                               )
 
     communities =  community.community_louvain.best_partition(G,random_state=123) 
     communities_df = pd.DataFrame.from_dict(communities, orient='index', columns=['community']).reset_index()
@@ -196,7 +197,8 @@ else:
                             source = "from", 
                             target = "to", 
                             edge_attr = True, 
-                            create_using = nx.Graph())
+                            create_using = nx.DiGraph()  #nx.Graph()
+                                       )
 
             # Initiate PyVis network object
             net = Network(notebook = True
