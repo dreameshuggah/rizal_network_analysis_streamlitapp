@@ -97,9 +97,9 @@ st.markdown("""
     }
     
     /* Hide default header */
-    header {visibility: hidden;}
+    #header {visibility: hidden;}
     #MainMenu {visibility: hidden;}
-    footer {visibility: hidden;}
+    #footer {visibility: hidden;}
     
 </style>
 """, unsafe_allow_html=True)
