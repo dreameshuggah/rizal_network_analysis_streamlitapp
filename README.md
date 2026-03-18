@@ -23,12 +23,3 @@ You can access the hosted version of the app here: [rizalnetworkanalysis.streaml
 - **Sample Data Integration**: Option to use pre-loaded sample data for quick exploration.
 
 ---
-
-## 🛠️ Installation & Local Setup
-
-If you wish to run this project locally, follow these steps:
-
-### 1. Clone the repository
-```bash
-git clone [https://github.com/your-username/rizal-network-analysis.git](https://github.com/your-username/rizal-network-analysis.git)
-cd rizal-network-analysis
